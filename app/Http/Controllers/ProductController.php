@@ -48,6 +48,7 @@ class ProductController extends Controller
 
         // Redireccionar con un mensaje flash de sesión
         return redirect()->route("products.index")->with("status", "Producto creado satisfactoriamente!");
+
     }
 
 
